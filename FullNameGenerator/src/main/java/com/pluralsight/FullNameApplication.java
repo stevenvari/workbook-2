@@ -8,7 +8,7 @@ public class FullNameApplication {
         // 1. prompt the user for of their name
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Please enter your name: ");
+        System.out.println("Please enter your first name: ");
         String firstName = scanner.nextLine().trim();
 
         System.out.println("Type your Middle name: ");
@@ -20,7 +20,8 @@ public class FullNameApplication {
         System.out.println("Type your suffix or Press enter to skip");
         String suffix = scanner.nextLine().trim();
 
-        System.out.printf("%s %s %s %s", firstName, middleName, lastName, suffix);
+
+        System.out.printf("%s %s %s %s ", firstName, middleName, lastName, suffix);
 
 
 
